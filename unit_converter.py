@@ -13,168 +13,168 @@ def choices():
     print()
 
 
-def ctof():
+def celsius_to_fahrenheit():
     C = input("Enter temperature in Celsius: ")
     C = float(C)
     F = C * (9 / 5) + 32
     print("Temperature in Fahrenheit:", F)
 
 
-def ftoc():
+def fahrenheit_to_celsius():
     F = input("Enter the temperature in Fahrenheit: ")
     F = float(F)
     C = (F - 32) * (5 / 9)
     print("Temperature in Celsius:", C)
 
 
-def ctok():
+def celsius_to_kelvin():
     C = input("Enter temperature in Celsius: ")
     C = float(C)
     K = C + 273.15
     print("Temperature in Kelvin:", C)
 
 
-def ktoc():
+def kelvin_to_celsius():
     K = input("Enter temperature in Kelvin: ")
     K = float(K)
     C = K - 273.15
     print("Temperature in Celsius:", C)
 
 
-def ktof():
+def kelvin_to_fahrenheit():
     K = input("Enter temperature in Kelvin: ")
     K = float(K)
     F = (K - 273.15) * (9 / 5) + 32
     print("Temperature in Fahrenheit:", F)
 
 
-def ftok():
+def fahrenheit_to_kelvin():
     F = input("Enter the temperature in Fahrenheit: ")
     F = float(F)
     K = (F - 32) * (5 / 9) + 273.15
     print("Temperature in Kelvin:", K)
 
 
-def mtokm():
+def metre_to_kilometre():
     M = input("Enter the length in metres: ")
     M = float(M)
     KM = M / 1000
     print("Length in Kilometres:", KM)
 
 
-def kmtom():
+def kilometre_to_metre():
     KM = input("Enter the area in Kilometres: ")
     KM = float(KM)
     M = KM * 1000
     print("Length in Metres:", M)
 
 
-def kmtomi():
+def kilometre_to_mile():
     KM = input("Enter the length in Kilometres: ")
     KM = float(KM)
     MI = KM * 0.62137119
     print("Length in Miles:", MI)
 
 
-def mitokm():
+def mile_to_kilometre():
     MI = input("Enter the length in Miles: ")
     MI = float(MI)
     KM = MI / 0.62137119
     print("Length in Kilometres:", KM)
 
 
-def kmtof():
+def kilometre_to_foot():
     KM = input("Enter the length in Kilometres: ")
     KM = float(KM)
     F = KM * 3280.84
     print("Length in Foot:", F)
 
 
-def ftokm():
+def foot_to_kilometre():
     F = input("Enter the length in Foot: ")
     F = float(KM)
     KM = F / 3280.84
     print("Length in Kilometres:", KM)
 
 
-def mtosqkm():
+def squarem_to_squarekm():
     M = input("Enter area in Square Metres: ")
     M = float(M)
     KM = M / 1000000
     print("Area in Square Kilometres:", KM)
 
 
-def sqkmtom():
+def squarekm_to_squarem():
     KM = input("Enter area in Square Kilometres: ")
     KM = float(KM)
     M = KM * 1000000
     print("Area in Square Metres:", M)
 
 
-def sqkmtomi():
+def squarekm_to_squaremiles():
     KM = input("Enter area in Square Kilometres: ")
     KM = float(KM)
     MI = KM / 2.59
     print("Area in Square Miles:", MI)
 
 
-def mitosqkm():
+def squaremiles_to_squarekm():
     MI = input("Enter area in Square Miles: ")
     MI = float(MI)
     KM = MI * 2.59
     print("Area in Square Kilometres:", KM)
 
 
-def ftosqkm():
+def squarefoot_to_squarekm():
     F = input("Enter area in Square Foot: ")
     F = float(F)
     KM = F / 10763910.41671
     print("Area in Square Kilometres:", KM)
 
 
-def sqkmtof():
+def squarekm_to_squarefoot():
     KM = input("Enter area in Square Kilometres: ")
     KM = float(KM)
     F = KM * 10763910.41671
     print("Area in Square Foot:", F)
 
 
-def stom():
+def seconds_to_minutes():
     S = input("Enter time in Seconds: ")
     S = float(S)
     M = S / 60
     print("Time in Minutes:", M)
 
 
-def mtos():
+def minutes_to_seconds():
     M = input("Enter time in Minutes: ")
     M = float(M)
     S = M * 60
     print("Time in Seconds:", S)
 
 
-def htom():
+def hours_to_minutes():
     H = input("Enter time in Hours: ")
     H = float(H)
     M = H * 60
     print("Time in Minutes:", M)
 
 
-def mtoh():
+def minutes_to_hours():
     M = input("Enter time in Minutes: ")
     M = float(M)
     H = M / 60
     print("Time in Hours:", H)
 
 
-def htod():
+def hours_to_days():
     H = input("Enter time in Hours: ")
     H = float(H)
     D = H / 24
     print("Time in Days:", D)
 
 
-def dtoh():
+def days_to_hours():
     D = input("Enter time in Days: ")
     D = float(D)
     H = D * 24
@@ -197,22 +197,22 @@ def temperature():
         sleep(0.25)
         if choice2 == "1":
             print()
-            ctof()
+            celsius_to_fahrenheit()
         if choice2 == "2":
             print()
-            ftoc()
+            fahrenheit_to_celsius()
         if choice2 == "3":
             print()
-            ctok()
+            celsius_to_kelvin()
         if choice2 == "4":
             print()
-            ktoc()
+            kelvin_to_celsius()
         if choice2 == "5":
             print()
-            ktof()
+            kelvin_to_fahrenheit()
         if choice2 == "6":
             print()
-            ftok()
+            fahrenheit_to_kelvin()
         if choice2 == "7":
             print()
             break
@@ -234,22 +234,22 @@ def length():
         sleep(0.25)
         if choice2 == "1":
             print()
-            mtokm()
+            metre_to_kilometre()
         if choice2 == "2":
             print()
-            kmtom()
+            kilometre_to_metre()
         if choice2 == "3":
             print()
-            kmtomi()
+            kilometre_to_mile()
         if choice2 == "4":
             print()
-            mitokm()
+            mile_to_kilometre()
         if choice2 == "5":
             print()
-            ftokm()
+            foot_to_kilometre()
         if choice2 == "6":
             print()
-            kmtof()
+            kilometre_to_foot()
         if choice2 == "7":
             print()
             break
@@ -271,22 +271,22 @@ def area():
         sleep(0.25)
         if choice2 == "1":
             print()
-            mtosqkm()
+            squarem_to_squarekm()
         if choice2 == "2":
             print()
-            sqkmtom()
+            squarekm_to_squarem()
         if choice2 == "3":
             print()
-            sqkmtomi()
+            squarekm_to_squaremiles()
         if choice2 == "4":
             print()
-            mitosqkm()
+            squaremiles_to_squarekm()
         if choice2 == "5":
             print()
-            ftosqkm()
+            squarefoot_to_squarekm()
         if choice2 == "6":
             print()
-            sqkmtof()
+            squarekm_to_squarefoot()
         if choice2 == "7":
             print()
             break
@@ -308,28 +308,33 @@ def time():
         sleep(0.25)
         if choice2 == "1":
             print()
-            stom()
+            seconds_to_minutes()
         if choice2 == "2":
             print()
-            mtos()
+            minutes_to_seconds()
         if choice2 == "3":
             print()
-            mtoh()
+            minutes_to_hours()
         if choice2 == "4":
             print()
-            htom()
+            hours_to_minutes()
         if choice2 == "5":
             print()
-            dtoh()
+            days_to_hours()
         if choice2 == "6":
             print()
-            htod()
+            hours_to_days()
         if choice2 == "7":
             print()
             break
 
 
 def close():
+    credit1 = "Thank You for using Unit Converter."
+    credit2 = "- Made by VikinG"
+    print(credit1.center(shutil.get_terminal_size().columns))
+    print(credit2.center(shutil.get_terminal_size().columns))
+    print()
     quit()
 
 
@@ -359,10 +364,5 @@ if continue_program == "":
         if choice1 == "4":
             time()
         if choice1 == "5":
-            print()
-            credit1 = "Thank You for using Unit Converter."
-            credit2 = "- Made by VikinG"
-            print(credit1.center(shutil.get_terminal_size().columns))
-            print(credit2.center(shutil.get_terminal_size().columns))
             print()
             close()
