@@ -86,7 +86,7 @@ while True:
     elif a == "2":
         print()
         print("Thank You for using Dice Simulator.")
-        print("- Made by Raunak Pyakurel")
+        print("- Made by VikinG")
         quit()
     else:
         print("Please enter the valid number")
