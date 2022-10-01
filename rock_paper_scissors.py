@@ -121,7 +121,7 @@ while True:
     elif user_choice == "Q":
         print()
         credit1 = "Thank You for playing Rock, Paper and Scissors game."
-        credit2 = "- Made by Raunak Pyakurel"
+        credit2 = "- Made by VikinG"
         print(credit1.center(shutil.get_terminal_size().columns))
         print(credit2.center(shutil.get_terminal_size().columns))
         print()
