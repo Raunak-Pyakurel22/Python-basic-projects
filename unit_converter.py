@@ -361,7 +361,7 @@ if continue_program == "":
         if choice1 == "5":
             print()
             credit1 = "Thank You for using Unit Converter."
-            credit2 = "- Made by Raunak Pyakurel"
+            credit2 = "- Made by VikinG"
             print(credit1.center(shutil.get_terminal_size().columns))
             print(credit2.center(shutil.get_terminal_size().columns))
             print()
