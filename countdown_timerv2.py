@@ -39,7 +39,7 @@ def timer(num):
     print(border2.center(shutil.get_terminal_size().columns))
     print()
     credit1 = "Thank You for using Timer."
-    credit2 = "- Made by Raunak Pyakurel"
+    credit2 = "- Made by VikinG"
     print(credit1.center(shutil.get_terminal_size().columns))
     print(credit2.center(shutil.get_terminal_size().columns))
     print()
