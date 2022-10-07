@@ -34,7 +34,7 @@ def instructions():
     print()
 
 
-# the main logic of game
+# the main logic of game,This function can be broken into two,three functions but i was lazy so i didnot lol, cal also add the scoring system but again i felt a bit lazy
 def main_game():
     print()
     random_number = random.randint(lower_limit, upper_limit)
